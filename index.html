@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THCS THÁI LONG - Đề Gốc Anh 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div class="school-header">
+            <h1>THCS THÁI LONG</h1>
+            <h2>ÔN TẬP HỌC KÌ I - TIẾNG ANH 9 </h2>
+        </div>
+
+        <div id="quiz-section">
+            <div id="question-container">
+                <div id="part-title"></div>
+                <div id="question-text"></div>
+                <div id="options" class="options-grid"></div>
+            </div>
+
+            <div class="footer-stats">
+                <div>Câu hỏi: <span id="current-pos">1</span>/35</div>
+                <div>Đúng: <span id="score-correct">0</span></div>
+            </div>
+        </div>
+
+        <div id="result-screen" style="display: none;">
+            <h2>BÀI THI HOÀN TẤT</h2>
+            <p id="final-stats"></p>
+            <button class="restart-btn" onclick="location.reload()">Làm lại bài thi</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
